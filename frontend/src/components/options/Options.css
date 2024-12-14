@@ -1,0 +1,84 @@
+.frame-3,
+.frame-3 * {
+  box-sizing: border-box;
+}
+.frame-3 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0px 1px 0px;
+  height: 123px;
+  position: relative;
+  overflow: hidden;
+}
+.menu {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-46 {
+  background: #eeeeee;
+  width: 1746.51px;
+  height: 149.81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.todos-os-corredores {
+  color: #e87b04;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 75.85px;
+  top: 45.26px;
+  width: 367.1px;
+  height: 68.66px;
+}
+.ofertas-da-semana {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 518.8px;
+  top: 45.26px;
+  width: 367.1px;
+  height: 68.66px;
+}
+.limpeza {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 941.74px;
+  top: 45.26px;
+  width: 367.1px;
+  height: 68.66px;
+}
+.hortifruti {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 1197.6px;
+  top: 45.26px;
+  width: 367.1px;
+  height: 68.66px;
+}
+.cart-o-delta {
+  color: #e97c00;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 1461.32px;
+  top: 45.26px;
+  width: 418.68px;
+  height: 87.39px;
+}
