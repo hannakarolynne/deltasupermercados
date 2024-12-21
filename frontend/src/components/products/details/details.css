@@ -1,0 +1,503 @@
+.compra-claro,
+.compra-claro * {
+  box-sizing: border-box;
+}
+.compra-claro {
+  background: #ffffff;
+  height: 4016px;
+  position: relative;
+  overflow: hidden;
+}.rectangle-66,
+.rectangle-66 * {
+  box-sizing: border-box;
+}
+.rectangle-66 {
+  background: rgba(217, 217, 217, 0);
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;
+  height: 79px;
+  position: relative;
+}
+
+.image-13 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 44px;
+  top: 391px;
+  object-fit: cover;
+}
+.rectangle-60 {
+  background: #fca650;
+  border-radius: 20px;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: 480px;
+  top: 988px;
+  transform-origin: 0 0;
+  transform: rotate(0.089deg) scale(1, 1);
+}
+.rectangle-65 {
+  background: #fca650;
+  border-radius: 20px;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  left: 1000px;
+  top: 2740.1px;
+  transform-origin: 0 0;
+  transform: rotate(0.089deg) scale(1, 1);
+}
+.comprar {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 500px;
+  top: 1013px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avaliar {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 1050px;
+  top: 2777px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.salgadinho-batata-frita-pringles-churrasco-109-g {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700px;
+  position: absolute;
+  left: 400px;
+  top: 380px;
+  width: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.r-15-95 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  left: 480px;
+  top: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-48 {
+  background: #ff0000;
+  width: 324px;
+  height: 6.50px;
+  position: absolute;
+  left: 500px;
+  top: 710px;
+  transform-origin: 0 0;
+  transform: rotate(9.69deg) scale(1, -1);
+}
+.r-14-35 {
+  color: #ff0000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 500px;
+  top: 769px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
+
+.star2 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 80px;
+  top: 2619px;
+  object-fit: cover;
+}
+.star3 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 217px;
+  top: 2619px;
+  object-fit: cover;
+}
+.star4 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 297px;
+  top: 2621px;
+  object-fit: cover;
+}
+.star5 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 377px;
+  top: 2619px;
+  object-fit: cover;
+}
+.rectangle-64 {
+  background: rgba(217, 217, 217, 0);
+  border-style: solid;
+  border-color: #000000;
+  border-width: 5px;
+  width: 444px;
+  height: 79px;
+  position: absolute;
+  left: 23px;
+  top: 2622px;
+}
+.star6 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1056px;
+  top: 594px;
+  object-fit: cover;
+}
+.star7 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1149px;
+  top: 594px;
+  object-fit: cover;
+}
+.star8 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1229px;
+  top: 594px;
+  object-fit: cover;
+}
+.star9 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1309px;
+  top: 596px;
+  object-fit: cover;
+}
+.star10 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1389px;
+  top: 594px;
+  object-fit: cover;
+}
+.star11 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 38px;
+  top: 3220px;
+  object-fit: cover;
+}
+.star12 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 131px;
+  top: 3220px;
+  object-fit: cover;
+}
+.star13 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 211px;
+  top: 3220px;
+  object-fit: cover;
+}
+.star14 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 291px;
+  top: 3222px;
+  object-fit: cover;
+}
+.star15 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 371px;
+  top: 3220px;
+  object-fit: cover;
+}
+.avalia-es {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 20px;
+  top: 2446px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descri-o {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 23px;
+  top: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.em-estoque {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: 1100px;
+  top: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coment-rios-1 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 26px;
+  top: 2777px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dono-da-loja-comentou {
+  color: #000000;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 30px;
+  font-weight: 200px;
+  position: absolute;
+  left: 177px;
+  top: 2978px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dono-da-loja-comentou-span {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.dono-da-loja-comentou-span2 {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 50px;
+  font-weight: 200px;
+}
+.amei-comprem-nota-10000 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 17px;
+  top: 3112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sei-la-1 {
+  border-radius: 360px;
+  width: 135.45px;
+  height: 130px;
+  position: absolute;
+  left: 20px;
+  top: 2950px;
+  object-fit: cover;
+}
+.curtidas-1 {
+  color: #000000;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 559px;
+  top: 3224px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.curtidas-1-span {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+.curtidas-1-span2 {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+.heart {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 889px;
+  top: 3216px;
+  object-fit: cover;
+}
+.rectangle-35 {
+  background: #fca650;
+  width: 392px;
+  height: 44px;
+  position: absolute;
+  left: 6px;
+  top: 100px;
+}
+.group-22 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-24 {
+  background: #d9d9d9;
+  width: 375px;
+  height: 71px;
+  position: absolute;
+  left: 44px;
+  top: 144px;
+}
+.rectangle-23 {
+  background: #000000;
+  border-radius: 360px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 65px;
+  top: 153px;
+}
+.modo-escuro {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 144px;
+  top: 153px;
+  width: 258px;
+  height: 53px;
+}
+.rectangle-36 {
+  background: #ffa448;
+  width: 1728px;
+  height: 146px;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+}
+.image-removebg-preview-2 {
+  width: 211px;
+  height: 123px;
+  position: absolute;
+  left: 31px;
+  top: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(79, 79, 79, 0.25);
+  object-fit: cover;
+}
+.group-23 {
+  height: auto;
+  position: absolute;
+  left: 419px;
+  top: 38px;
+  overflow: visible;
+}
+.menu {
+  width: 73px;
+  height: 73px;
+  position: absolute;
+  left: 1602px;
+  top: 32px;
+  object-fit: cover;
+}
+.busque-produtos-aqui {
+  color: #959595;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  position: absolute;
+  left: 456px;
+  top: 45px;
+  width: 441px;
+}
+.shopping-cart {
+  width: 73px;
+  height: 73px;
+  position: absolute;
+  left: 1474px;
+  top: 32px;
+  object-fit: cover;
+}
+.filter {
+  width: 73px;
+  height: 73px;
+  position: absolute;
+  left: 1367px;
+  top: 35px;
+  object-fit: cover;
+}
+.home-produto-cat-logo-salgadinho-batata-frita-pringles-churrasco-109-g {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: absolute;
+  left: 44px;
+  top: 254px;
+  width: 964px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
