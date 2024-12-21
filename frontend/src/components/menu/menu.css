@@ -1,0 +1,116 @@
+.menu-catalogo,
+.menu-catalogo * {
+    box-sizing: border-box;
+}
+.menu-catalogo {
+    border-radius: 20px;
+    height: 814px;
+    position: relative;
+}
+.rectangle-16 {
+    background: #d9d9d9;
+    border-radius: 25px;
+    width: 496px;
+    height: 814px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.x {
+    color: #413434;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    position: absolute;
+    left: 37px;
+    top: 32px;
+}
+.group-6 {
+    position: absolute;
+    inset: 0;
+}
+.acompanhe-seu-pedido {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 112px;
+    top: 152px;
+}
+.delivery-scooter {
+    width: 59px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 146px;
+    object-fit: cover;
+}
+.group-7 {
+    position: absolute;
+    inset: 0;
+}
+.cupons {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 112px;
+    top: 220px;
+}
+.loyalty-card {
+    width: 59px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 214px;
+    object-fit: cover;
+}
+.group-8 {
+    position: absolute;
+    inset: 0;
+}
+.vale-presentes {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 113px;
+    top: 292px;
+}
+.gift-card {
+    width: 59px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 286px;
+    object-fit: cover;
+}
+.group-9 {
+    position: absolute;
+    inset: 0;
+}
+.afiliados {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 112px;
+    top: 367px;
+}
+.user-account {
+    width: 59px;
+    height: 49px;
+    position: absolute;
+    left: 29px;
+    top: 354px;
+    object-fit: cover;
+}
