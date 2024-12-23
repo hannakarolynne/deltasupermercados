@@ -1,8 +1,8 @@
 import InputEmail, { InputPass } from "../input/input";
-import "./FormLogin.css";
+import "./FormSignup.css";
 import Circulos from "../../assets/circulos.png";
 
-function FormLogin() {
+function FormSignup() {
   return (
     // TODO FORMULÁRIO DE LOGIN
       <div className="form-login">
@@ -33,4 +33,4 @@ function FormLogin() {
   );
 }
 
-export default FormLogin;
+export default FormSignup;
