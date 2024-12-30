@@ -1,0 +1,303 @@
+.component-3,
+.component-3 * {
+  box-sizing: border-box;
+}
+.component-3 {
+  height: 1125px;
+  position: relative;
+}
+.login {
+  background: var(--branco, #fafafa);
+  width: 749px;
+  height: 1125px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.group-11 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  background: #b44f4c;
+  border-radius: 50%;
+  width: 289px;
+  height: 289px;
+  position: absolute;
+  left: 348px;
+  top: 451px;
+}
+.ellipse-2 {
+  width: 289px;
+  height: 289px;
+  position: absolute;
+  left: 81px;
+  top: 646px;
+  overflow: visible;
+}
+.ellipse-3 {
+  background: #92ecac;
+  border-radius: 50%;
+  width: 289px;
+  height: 289px;
+  position: absolute;
+  left: 69px;
+  top: 322px;
+}
+.rectangle-1 {
+  border-radius: 0px;
+  opacity: 0.8;
+  width: 532px;
+  height: 545px;
+  position: absolute;
+  left: 99px;
+  top: 339px;
+  overflow: visible;
+}
+.bem-vindo {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  position: absolute;
+  left: 225px;
+  top: 387px;
+  width: 283px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-2 {
+  background: #f2f2f2;
+  border-radius: 13px;
+  width: 445px;
+  height: 64px;
+  position: absolute;
+  left: 138px;
+  top: 508px;
+}
+.rectangle-3 {
+  background: #f2f2f2;
+  border-radius: 13px;
+  width: 445px;
+  height: 64px;
+  position: absolute;
+  left: 138px;
+  top: 618px;
+}
+.rectangle-4 {
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: 166px;
+  top: 698px;
+  overflow: visible;
+}
+.rectangle-6 {
+  background: #ffffff;
+  border-radius: 13px;
+  width: 123px;
+  height: 39px;
+  position: absolute;
+  left: 492px;
+  top: 832px;
+}
+.usu-rio-ou-cpf {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 153px;
+  top: 477px;
+  width: 185px;
+  height: 26px;
+}
+.senha {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 153px;
+  top: 593px;
+  width: 185px;
+  height: 26px;
+}
+.cadastrar {
+  color: #291300;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 506px;
+  top: 842px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.done {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 166px;
+  top: 698px;
+  object-fit: cover;
+}
+.user-male {
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: 156px;
+  top: 518px;
+  object-fit: cover;
+}
+.lock {
+  width: 43px;
+  height: 44px;
+  position: absolute;
+  left: 156px;
+  top: 628px;
+  object-fit: cover;
+}
+.lembrar-me {
+  color: #070606;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 215px;
+  top: 714px;
+  width: 145px;
+  height: 26px;
+}
+.component-1 {
+  width: 226px;
+  height: 43px;
+  position: absolute;
+  left: 334px;
+  top: 624px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.group-2 {
+  width: 101px;
+  height: 34px;
+  position: static;
+}
+._1234 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  right: 55.31%;
+  left: 0%;
+  width: 44.69%;
+  bottom: 0%;
+  top: 20.93%;
+  height: 79.07%;
+}
+.eye {
+  width: 19.03%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 80.97%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.rectangle-18 {
+  width: 79.5px;
+  height: 100px;
+  position: absolute;
+  left: 90px;
+  top: 387px;
+  overflow: visible;
+}
+.login2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  position: absolute;
+  left: 73px;
+  top: 142px;
+  width: 584px;
+  height: 191px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.temos-o-orgulho-de-receber-voc {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 160px;
+  top: 947px;
+  width: 399px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cadastrar2 {
+  color: #291300;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 530px;
+  top: 842px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-17 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-22 {
+  background: #51d237;
+  border-radius: 25px;
+  width: 208px;
+  height: 70px;
+  position: absolute;
+  left: 254px;
+  top: 755px;
+}
+.entrar {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 223px;
+  top: 735px;
+  width: 271px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+background-color: gray;
+}
