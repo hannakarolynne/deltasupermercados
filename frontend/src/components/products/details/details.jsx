@@ -55,7 +55,7 @@ function Details() {
                     <div className="main-avaliacoes">
                         <div className="numeros">
                             <img style={{ height: '30px' }} src={Estrelas} className="img-estrelas"></img>
-                            <h2>Comentários: 1</h2>
+                            <h2>Comentários: 0</h2>
                             <button className="btn">Avaliar</button>
                         </div>
                         {/* COMENTÁRIOS */}
