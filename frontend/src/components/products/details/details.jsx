@@ -1,73 +1,76 @@
-import "./details.css"
-
-function Detalhes() {
+import "./Details.css";
+import Logo from "../../../assets/logo.png";
+import Produto from "../../../assets/produto.png";
+import Filtro from "../../../assets/icon-filtro.png";
+import Carrinho from "../../../assets/icon-carrinho.png";
+import Menu from "../../../assets/icon-menu.png";
+import Estrelas from "../../../assets/cinco-estrelas.png";
+function Details() {
     return (
-        <div class="compra-claro">
-            <img class="image-13" src="image-130.png" />
-            <div class="rectangle-60"></div>
-            <div class="rectangle-65"></div>
-            <div class="comprar">Comprar</div>
-            <div class="avaliar">Avaliar</div>
-            <div class="salgadinho-batata-frita-pringles-churrasco-109-g">
-                Salgadinho Batata Frita
-                <br />
-                Pringles Churrasco 109g
-            </div>
-            <div class="r-15-95">R$ 15,95</div>
-            <div class="rectangle-48"></div>
-            <div class="r-14-35">R$ 14,35</div>
-            <img class="star" src="star0.png" />
-            <img class="star2" src="star1.png" />
-            <img class="star3" src="star2.png" />
-            <img class="star4" src="star3.png" />
-            <img class="star5" src="star4.png" />
-            <div class="rectangle-64"></div>
-            <img class="star6" src="star5.png" />
-            <img class="star7" src="star6.png" />
-            <img class="star8" src="star7.png" />
-            <img class="star9" src="star8.png" />
-            <img class="star10" src="star9.png" />
-            <img class="star11" src="star10.png" />
-            <img class="star12" src="star11.png" />
-            <img class="star13" src="star12.png" />
-            <img class="star14" src="star13.png" />
-            <img class="star15" src="star14.png" />
-            <div class="avalia-es">Avaliações</div>
-            <div class="descri-o">Descrição</div>
-            <div class="em-estoque">Em estoque</div>
-            <div class="coment-rios-1">Comentários: 1</div>
-            <div class="dono-da-loja-comentou">
-                <span>
-                    <span class="dono-da-loja-comentou-span">Dono da loja</span>
-                    <span class="dono-da-loja-comentou-span2">comentou:</span>
-                </span>
-            </div>
-            <div class="amei-comprem-nota-10000">Amei ❤️, comprem. Nota 10000😋.</div>
-            <img class="sei-la-1" src="sei-la-10.png" />
-            <div class="curtidas-1">
-                <span>
-                    <span class="curtidas-1-span">Curtidas:</span>
-                    <span class="curtidas-1-span2">1</span>
-                </span>
-            </div>
-            <img class="heart" src="heart0.png" />
-            <div class="rectangle-35"></div>
-            <div class="rectangle-24"></div>
-            <div class="rectangle-23"></div>
-            <div class="modo-escuro">Modo Escuro</div>
-            <div class="rectangle-36"></div>
-            <img class="image-removebg-preview-2" src="image-removebg-preview-20.png" />
-            <img class="group-23" src="group-230.svg" />
-            <img class="menu" src="menu0.png" />
-            <div class="busque-produtos-aqui">Busque produtos aqui</div>
-            <img class="shopping-cart" src="shopping-cart0.png" />
-            <img class="filter" src="filter0.png" />
-            <div
-                class="home-produto-cat-logo-salgadinho-batata-frita-pringles-churrasco-109-g"
-            >
-                Home &gt; Produto &gt; Catálogo &gt; Salgadinho Batata Frita Pringles
-                Churrasco 109g
-            </div>
+        <div class="div-detalhes">
+
+            {/*MENU CATÁLOGO E DETALHES  */}
+            <header>
+                <div className="div-logo"><img src={Logo} className="img-logo" /></div>
+
+                <div className="pesquisa"><h6>barra de pesquisa</h6></div>
+                <div className="opcoes">
+                    <img src={Filtro} className="icon-header" alt="filtro" />
+                    <img src={Carrinho} className="icon-header" alt="carrinho" />
+                    <img src={Menu} className="icon-header" alt="menu" />
+                </div>
+            </header>
+
+            {/* ÁREA PRINCIPAL */}
+            <main>
+                {/* INFORMAÇÕES INICIAIS DO PRODUTO */}
+                <div className="info-prod">
+                    {/* IMAGENS DO PRODUTO */}
+                    <div className="div-produto"><img className="img-produto" src={Produto} alt="foto produto" /></div>
+
+                    {/* LATERAL DO PRODUTO */}
+                    <div className="conteudo-prod">
+                        <h1>
+                            Salgadinho Batata Frita Pringles Churrasco 109g
+                        </h1>
+                        <div className="stars-stock">
+                            <img style={{ height: '30px' }} src={Estrelas} className="img-estrelas"></img>
+                            <h3 style={{ fontWeight: "700", color: 'rgb(53, 53, 53)' }}>Em estoque</h3>
+                        </div>
+                        <h1 style={{ color: "red", opacity: 0.6, fontSize: "40px" }}>R$ 15,95</h1>
+                        <h1 style={{ fontSize: "40px" }} >R$ 14,35</h1>
+                        <button className="btn">Comprar</button>
+                    </div>
+                </div>
+                {/* DESCRIÇÃO DO PRODUTO */}
+                <div className="descricao">
+                    <h1>Descrição</h1>
+                    <p className="texto-descricao" style={{ textAlign: 'justify', }}>O salgadinho Batata Frita Pringles®, vem em sua icônica lata para proporcionar uma experiência incomparável. É o salgadinho que foi feito para você! Com suas batatas que encaixam perfeitamente na sua língua, e que te surpreende a cada mordida com uma crocância incomparável e um sabor único. Pringles® é autêntica, divertida e surpreendente. Suas batatas perfeitamente empilhadas, te permitem levá-las para todos os lugares. Em meio à correria do dia a dia, ele é uma pausa merecida, um momento de relaxamento que revigora e renova suas energias. Mas também ideal para dividir com a galera, e tornar todos os encontros mais especiais. Para os apaixonados por Churrasco, um salgadinho com sabor que dá água na boca! Desfrute deste salgadinho na versão Churrasco ou explore os sabores Original, Creme e Cebola,  Queijo e Cheddar e Bacon. Este snack é perfeito para qualquer ocasião. Dê um pop na sua mente com Pringles®!</p>
+                </div>
+                {/* AVALIAÇÕES */}
+                <div className="avaliacoes">
+                    <h1>Avaliações</h1>
+
+                    {/* PAINEL DE AVALIAÇÕES */}
+                    <div className="main-avaliacoes">
+                        <div className="numeros">
+                            <img style={{ height: '30px' }} src={Estrelas} className="img-estrelas"></img>
+                            <h2>Comentários: 1</h2>
+                            <button className="btn">Avaliar</button>
+                        </div>
+                        {/* COMENTÁRIOS */}
+                        <div style={{ fontSize: "30px" }} className="comentarios">
+                            <h3>Dono da Loja comentou:</h3>
+                            <h4 style={{ fontWeight: 'lighter' }}>Amei ❤️, comprem. Nota 10000</h4>
+                            <img style={{ height: '30px' }} src={Estrelas} className="img-estrelas"></img>
+                            <h3>Curtidas: <span style={{fontWeight:'lighter'}}>1</span><span></span></h3>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <h1>Componente rodapé</h1>
+            </footer>
         </div>
     )
-}export default Detalhes
+} export default Details

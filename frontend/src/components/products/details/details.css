@@ -1,391 +1,9 @@
-.compra-claro,
-.compra-claro * {
+/* .group-33,
+.group-33 * {
   box-sizing: border-box;
 }
-.compra-claro {
-  background: #ffffff;
-  height: 4016px;
+.group-33 {
   position: relative;
-  overflow: hidden;
-}.rectangle-66,
-.rectangle-66 * {
-  box-sizing: border-box;
-}
-.rectangle-66 {
-  background: rgba(217, 217, 217, 0);
-  border-style: solid;
-  border-color: #000000;
-  border-width: 5px;
-  height: 79px;
-  position: relative;
-}
-
-.image-13 {
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  width: 400px;
-  height: 500px;
-  position: absolute;
-  left: 44px;
-  top: 391px;
-  object-fit: cover;
-}
-.rectangle-60 {
-  background: #fca650;
-  border-radius: 20px;
-  width: 300px;
-  height: 100px;
-  position: absolute;
-  left: 480px;
-  top: 988px;
-  transform-origin: 0 0;
-  transform: rotate(0.089deg) scale(1, 1);
-}
-.rectangle-65 {
-  background: #fca650;
-  border-radius: 20px;
-  width: 300px;
-  height: 120px;
-  position: absolute;
-  left: 1000px;
-  top: 2740.1px;
-  transform-origin: 0 0;
-  transform: rotate(0.089deg) scale(1, 1);
-}
-.comprar {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  position: absolute;
-  left: 500px;
-  top: 1013px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.avaliar {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  position: absolute;
-  left: 1050px;
-  top: 2777px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.salgadinho-batata-frita-pringles-churrasco-109-g {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 50px;
-  font-weight: 700px;
-  position: absolute;
-  left: 400px;
-  top: 380px;
-  width: 720px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.r-15-95 {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 70px;
-  font-weight: 700;
-  position: absolute;
-  left: 480px;
-  top: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.rectangle-48 {
-  background: #ff0000;
-  width: 324px;
-  height: 6.50px;
-  position: absolute;
-  left: 500px;
-  top: 710px;
-  transform-origin: 0 0;
-  transform: rotate(9.69deg) scale(1, -1);
-}
-.r-14-35 {
-  color: #ff0000;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 80px;
-  font-weight: 400;
-  position: absolute;
-  left: 500px;
-  top: 769px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-  
-
-.star2 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 80px;
-  top: 2619px;
-  object-fit: cover;
-}
-.star3 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 217px;
-  top: 2619px;
-  object-fit: cover;
-}
-.star4 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 297px;
-  top: 2621px;
-  object-fit: cover;
-}
-.star5 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 377px;
-  top: 2619px;
-  object-fit: cover;
-}
-.rectangle-64 {
-  background: rgba(217, 217, 217, 0);
-  border-style: solid;
-  border-color: #000000;
-  border-width: 5px;
-  width: 444px;
-  height: 79px;
-  position: absolute;
-  left: 23px;
-  top: 2622px;
-}
-.star6 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 1056px;
-  top: 594px;
-  object-fit: cover;
-}
-.star7 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 1149px;
-  top: 594px;
-  object-fit: cover;
-}
-.star8 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 1229px;
-  top: 594px;
-  object-fit: cover;
-}
-.star9 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 1309px;
-  top: 596px;
-  object-fit: cover;
-}
-.star10 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 1389px;
-  top: 594px;
-  object-fit: cover;
-}
-.star11 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 38px;
-  top: 3220px;
-  object-fit: cover;
-}
-.star12 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 131px;
-  top: 3220px;
-  object-fit: cover;
-}
-.star13 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 211px;
-  top: 3220px;
-  object-fit: cover;
-}
-.star14 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 291px;
-  top: 3222px;
-  object-fit: cover;
-}
-.star15 {
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 371px;
-  top: 3220px;
-  object-fit: cover;
-}
-.avalia-es {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  position: absolute;
-  left: 20px;
-  top: 2446px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.descri-o {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  position: absolute;
-  left: 23px;
-  top: 1150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.em-estoque {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  position: absolute;
-  left: 1100px;
-  top: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.coment-rios-1 {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  position: absolute;
-  left: 26px;
-  top: 2777px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.dono-da-loja-comentou {
-  color: #000000;
-  text-align: center;
-  font-family: "-", sans-serif;
-  font-size: 30px;
-  font-weight: 200px;
-  position: absolute;
-  left: 177px;
-  top: 2978px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.dono-da-loja-comentou-span {
-  color: #000000;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-}
-.dono-da-loja-comentou-span2 {
-  color: #000000;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 50px;
-  font-weight: 200px;
-}
-.amei-comprem-nota-10000 {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  position: absolute;
-  left: 17px;
-  top: 3112px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.sei-la-1 {
-  border-radius: 360px;
-  width: 135.45px;
-  height: 130px;
-  position: absolute;
-  left: 20px;
-  top: 2950px;
-  object-fit: cover;
-}
-.curtidas-1 {
-  color: #000000;
-  text-align: center;
-  font-family: "-", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  position: absolute;
-  left: 559px;
-  top: 3224px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.curtidas-1-span {
-  color: #000000;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-}
-.curtidas-1-span2 {
-  color: #000000;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-}
-.heart {
-  width: 90px;
-  height: 90px;
-  position: absolute;
-  left: 889px;
-  top: 3216px;
-  object-fit: cover;
 }
 .rectangle-35 {
   background: #fca650;
@@ -393,40 +11,7 @@
   height: 44px;
   position: absolute;
   left: 6px;
-  top: 100px;
-}
-.group-22 {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-24 {
-  background: #d9d9d9;
-  width: 375px;
-  height: 71px;
-  position: absolute;
-  left: 44px;
-  top: 144px;
-}
-.rectangle-23 {
-  background: #000000;
-  border-radius: 360px;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  left: 65px;
-  top: 153px;
-}
-.modo-escuro {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  position: absolute;
-  left: 144px;
-  top: 153px;
-  width: 258px;
-  height: 53px;
+  top: 101px;
 }
 .rectangle-36 {
   background: #ffa448;
@@ -434,22 +19,23 @@
   height: 146px;
   position: absolute;
   left: 0px;
-  top: -1px;
+  top: 0px;
 }
 .image-removebg-preview-2 {
   width: 211px;
   height: 123px;
   position: absolute;
   left: 31px;
-  top: 10px;
+  top: 11px;
   box-shadow: 0px 4px 4px 0px rgba(79, 79, 79, 0.25);
   object-fit: cover;
 }
 .group-23 {
-  height: auto;
+  width: 885px;
+  height: 67px;
   position: absolute;
   left: 419px;
-  top: 38px;
+  top: 39px;
   overflow: visible;
 }
 .menu {
@@ -457,7 +43,7 @@
   height: 73px;
   position: absolute;
   left: 1602px;
-  top: 32px;
+  top: 33px;
   object-fit: cover;
 }
 .busque-produtos-aqui {
@@ -468,7 +54,7 @@
   font-weight: 300;
   position: absolute;
   left: 456px;
-  top: 45px;
+  top: 46px;
   width: 441px;
 }
 .shopping-cart {
@@ -476,7 +62,7 @@
   height: 73px;
   position: absolute;
   left: 1474px;
-  top: 32px;
+  top: 33px;
   object-fit: cover;
 }
 .filter {
@@ -484,20 +70,127 @@
   height: 73px;
   position: absolute;
   left: 1367px;
-  top: 35px;
+  top: 36px;
   object-fit: cover;
-}
-.home-produto-cat-logo-salgadinho-batata-frita-pringles-churrasco-109-g {
-  color: #000000;
-  text-align: center;
-  font-family: "Roboto-SemiBold", sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  position: absolute;
-  left: 44px;
-  top: 254px;
-  width: 964px;
-  display: flex;
+} */
+* {
+  margin: 0px;
+  padding: 0px;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffa448;
+  display: flex;
+  height: 80px;
+}
+
+.img-logo {
+  width: 150px;
+}
+
+.pesquisa {
+  width: 300px;
+  height: 50px;
+  background-color: beige;
+}
+
+.opcoes {
+  display: flex;
+  gap: 10px;
+}
+
+/* MAIN */
+/* INFORMAÇÕES DO PRODUTO */
+main {
+  margin: 70px 70px 0px 70px;
+}
+
+.descricao,
+.avaliacoes {
+  margin-top: 50px;
+}
+
+.img-produto {
+  height: 400px;
+  border-radius: 10px;
+  border: solid 0.2px;
+}
+
+.div-produto {
+  height: 400px;
+}
+
+.pesquisa-opcoes {
+  justify-content: flex-end;
+}
+
+.conteudo-prod {
+  color: black;
+
+  height: 400px;
+
   justify-content: center;
+  align-items: center;
+}
+
+.info-prod {
+  display: flex;
+}
+
+.icon-header {
+  height: 50px;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  font-size: xx-large;
+  background-color: #ffa448;
+  border: none;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+
+}
+
+/* DESCRIÇÃO */
+
+.descricao {
+
+  text-justify: inter-word;
+  line-height: 20px;
+}
+
+.texto-descricao,
+.main-avaliacoes,
+footer {
+  margin-top: 30px;
+}
+
+.main-avaliacoes,.comentarios,.numeros{
+  height: 200px;
+}
+
+.main-avaliacoes {
+  display: flex;
+  border: solid;
+  
+}
+
+.conteudo-prod,
+.comentarios {
+  margin-left: 30px;
+}
+
+.comentarios {
+  border: solid;
+
+}
+
+footer {
+  background-color: #ffa448;
+  height: 200px;
 }
