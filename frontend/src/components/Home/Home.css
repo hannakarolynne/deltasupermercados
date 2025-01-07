@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  --color-bg: #fca650;
+  --color-bg1: #fcfcfc;
+  --font-color: #fcfcfc;
+  --text-shadow: 1px 1px 3px rgba(50, 50, 50, 0.5);
+  --font-size: 20px;
+  --font-contacts: 30px;
+}
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+/* NAVBAR*/
+.logo {
+  width: 10vw; 
+  height: auto;
+  margin-left: 2vw; 
+}
+
+.navbar {
+  background-color: var(--color-bg);
+  color: var(--font-color);
+  font-weight: bold;
+  display: flex;
+  padding: 1vw 2vw; 
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw; 
+}
+
+.navlink {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
+
+  font-size: var(--font-size);
+  text-shadow: var(--text-shadow);
+}
+
+.acess {
+  list-style: none;
+  display: block;
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  border-left: var(--font-color) solid;
+  padding-left: 5px;
+  font-size: 15px;
+  text-shadow: var(--text-shadow);
+}
+
+@media (max-width:1245px) and (min-width:1044px){
+
+  .navbar {
+    background-color: var(--color-bg);
+    color: var(--font-color);
+    font-weight: bold;
+    display: flex;
+    padding: 2px 10px; 
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+  }
+}
+
+/* OPÇÕES */
+.options {
+  padding: 2px 20px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom: rgb(178, 178, 178) solid 0.5px;
+  background-color: var(--color-bg1);
+  text-align: center;
+  font-size: var(--font-size);
+  position: relative;
+}
+.options1 {
+  padding: 10px 20px;
+  gap: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  font-weight: 600;
+}
+
+.orange-text {
+  color: #e87b04;
+}
+
+
+/* BANNER */
+.banner-home {
+  background-color: #e87b04;
+  color: var(--font-color);
+  height: 400px; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  position: static;
+  border: solid black;
+}
+
+
+.img-banner {
+  height: 400px; 
+  width: 100%;
+}
+
+
+/* SOBRE */
+.about {
+  background-color: #e87b04;
+  height: 420px; 
+  display: flex;
+  padding: 2vw 6vw; 
+  gap: 40px; 
+}
+
+
+.text-about {
+  color: var(--font-color);
+  text-align: justify;
+  justify-content: baseline;
+  margin-top: 35px;
+}
+
+.title-about {
+  color: var(--font-color);
+  justify-content: start;
+  align-items: first baseline;
+  text-align: left;
+  margin: 10px 0px;
+  text-shadow: var(--text-shadow);
+}
+
+.img-about {
+  background-color: black;
+  height: 300px;
+  width: 2000px;
+  margin: 50px 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  clip-path: inset(10px 20px 10px 0px);
+  overflow: hidden;
+  position: relative;
+  left: -0px;
+}
+
+.img-about1 {
+  position: relative;
+  top: 0px;
+  left: -80px;
+}
+
+
+
+/* NOSSO FORNECEDORES */
+.our-providers {
+  margin: 50px 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: solid black;
+}
+.container-providers {
+  background-color: green;
+  width: 1400px;
+  height: 500px;
+  display: block;
+  border-radius: 60px;
+}
+
+.title-providers {
+  color: var(--font-color);
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0px 10px 20px;
+  text-shadow: var(--text-shadow);
+}
+
+.images {
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 90px;
+  gap: -30px;
+}
+
+.img-shopping {
+  height: 400px;
+  align-items: center;
+  justify-content: end;
+  text-align: end;
+}
+
+.div-brand {
+  height: 400px;
+  width: 1000px;
+  margin-top: 10px 0px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  clip-path: inset(10px 70px 0px 30px);
+  overflow: hidden;
+}
+.img-brand {
+  top: -40px;
+  left: -230px;
+  bottom: -10px;
+  position: relative;
+}
+
+@media (max-width:1246px) and (min-width:1245px){
+  .our-providers {
+    margin: 50px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid black 0.0;
+  }
+  .container-providers {
+    background-color: green;
+    width: 100%;
+    height: 500px;
+    display: block;
+    border-radius: 60px;
+
+  }
+  
+  .title-providers {
+    color: var(--font-color);
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0px 10px 20px;
+    text-shadow: var(--text-shadow);
+  }
+  
+  .images {
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 90px;
+    gap: -30px;
+  }
+  
+  .img-shopping {
+    height: 400px;
+    align-items: center;
+    justify-content: end;
+    text-align: end;
+  }
+  
+  .div-brand {
+    height: 400px;
+    width: 1000px;
+    margin-top: 10px 0px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    clip-path: inset(10px 70px 0px 30px);
+    overflow: hidden;
+  }
+  .img-brand {
+    top: -40px;
+    left: -230px;
+    bottom: -10px;
+    position: relative;
+  }
+}
+/* CONTATOS */
+.contacts {
+  background-color: #e87b04;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  color: var(--font-color);
+  text-shadow: var(--text-shadow);
+}
+
+.content-contacts {
+  margin: 40px 0px;
+  display: flex;
+  font-size: var(--font-contacts);
+  align-items: center;
+  text-align: justify;
+  gap: 70px;
+  line-height: 40px;
+}
+
+.img-phone {
+  height: 250px;
+  justify-content: left;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: 60px;
+  position: absolute;
+}
+
+
+/* FOOTER */
+.footer-container {
+  display: flex;
+  gap: 18px; 
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 160px;
+}
+
+.links {
+  list-style-type: none;
+}
+.footer-container {
+  display: flex;
+  gap: 180px;
+  align-items: center;
+  justify-content: center;
+}
+.content-app {
+  text-align: center;
+}
+.img-app {
+  width: 300px;
+}
+
+.footer-delta {
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0px;
+}
+

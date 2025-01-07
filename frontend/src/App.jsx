@@ -1,6 +1,4 @@
-import './App.css'
-
-import Details from './components/products/details/details';
+import Homepage from "./pages/Homepage";
 
 
 function App() {
@@ -8,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <Details/>
+     <Homepage/>
     </div>
   )
 }
