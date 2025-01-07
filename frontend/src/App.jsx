@@ -1,4 +1,4 @@
-import Homepage from "./pages/Homepage";
+
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-     <Homepage/>
+    
     </div>
   )
 }
