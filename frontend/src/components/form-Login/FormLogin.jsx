@@ -9,7 +9,7 @@ function FormLogin() {
         <h2 className="text-bemvindo">Bem vindo</h2>
 
         <div class="div-form">
-          <form action="#">
+          <form action="#" method="POST">
           <h2 className="text-login">Login</h2>
             <label for="email">Email:</label>
             <InputEmail/>

@@ -1,8 +1,10 @@
 import FormSignup from "../../components/form-signup/FormSignup";
 import LogoForm from "../../components/logo/LogoForm";
+
+
 function Signup() {
   return (
-    <div
+    <div class
       style={{
         display: "flex",
         alignItems: "center",
@@ -10,6 +12,9 @@ function Signup() {
         textAlign: "center",
         gap: "120px",
         margin: "3% 0px 3% 0px",
+        
+
+
       }}
     >
       <LogoForm/>

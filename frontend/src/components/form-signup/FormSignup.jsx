@@ -9,8 +9,8 @@ function FormSignup() {
         <h2 className="text-bemvindo">Bem vindo</h2>
 
         <div class="div-form">
-          <form action="#">
-          <h2 className="text-login">Login</h2>
+          <form action="#" method="POST">
+          <h2 className="text-login">Cadastro</h2>
             <label for="email">Email:</label>
             <InputEmail/>
             <label for="password">Senha:</label>
