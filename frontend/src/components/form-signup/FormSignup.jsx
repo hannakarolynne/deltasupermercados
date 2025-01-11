@@ -1,8 +1,8 @@
 import InputEmail, { InputPass } from "../input/input";
-import "./FormLogin.css";
+import "./FormSignup.css";
 import Circulos from "../../assets/circulos.png";
 
-function FormLogin() {
+function FormSignup() {
   return (
     // TODO FORMULÁRIO DE LOGIN
       <div className="form-login">
@@ -10,8 +10,7 @@ function FormLogin() {
 
         <div class="div-form">
           <form action="#" method="POST">
-            
-          <h2 className="text-login">Login</h2>
+          <h2 className="text-login">Cadastro</h2>
             <label for="email">Email:</label>
             <InputEmail/>
             <label for="password">Senha:</label>
@@ -34,4 +33,4 @@ function FormLogin() {
   );
 }
 
-export default FormLogin;
+export default FormSignup;
