@@ -1,25 +1,13 @@
 import "./Details.css";
-import Logo from "../../../assets/logo.png";
 import Produto from "../../../assets/produto.png";
-import Filtro from "../../../assets/icon-filtro.png";
-import Carrinho from "../../../assets/icon-carrinho.png";
-import Menu from "../../../assets/icon-menu.png";
 import Estrelas from "../../../assets/cinco-estrelas.png";
+import Navbar from "../../navbar/Navbar";
 function Details() {
     return (
         <div class="div-detalhes">
 
-            {/*MENU CATÁLOGO E DETALHES  */}
-            <header>
-                <div className="div-logo"><img src={Logo} className="img-logo" /></div>
-
-                <div className="pesquisa"><h6>barra de pesquisa</h6></div>
-                <div className="opcoes">
-                    <img src={Filtro} className="icon-header" alt="filtro" />
-                    <img src={Carrinho} className="icon-header" alt="carrinho" />
-                    <img src={Menu} className="icon-header" alt="menu" />
-                </div>
-            </header>
+            {/*NAVBAR DE CATÁLOGO E DETALHES  */}
+            <Navbar/>
 
             {/* ÁREA PRINCIPAL */}
             <main>
@@ -68,9 +56,7 @@ function Details() {
                     </div>
                 </div>
             </main>
-            <footer>
-                <h1>Componente rodapé</h1>
-            </footer>
+            
         </div>
     )
 } export default Details

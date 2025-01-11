@@ -1,9 +1,11 @@
 import LogoForm from "../../assets/logo.png";
 
-const LogoForm = () => {
+function LogoForm () {
   return (
     <img src={LogoForm}/>
   )
 }
 
 export default LogoForm
+
+

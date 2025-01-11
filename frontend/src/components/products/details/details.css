@@ -1,78 +1,4 @@
-/* .group-33,
-.group-33 * {
-  box-sizing: border-box;
-}
-.group-33 {
-  position: relative;
-}
-.rectangle-35 {
-  background: #fca650;
-  width: 392px;
-  height: 44px;
-  position: absolute;
-  left: 6px;
-  top: 101px;
-}
-.rectangle-36 {
-  background: #ffa448;
-  width: 1728px;
-  height: 146px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.image-removebg-preview-2 {
-  width: 211px;
-  height: 123px;
-  position: absolute;
-  left: 31px;
-  top: 11px;
-  box-shadow: 0px 4px 4px 0px rgba(79, 79, 79, 0.25);
-  object-fit: cover;
-}
-.group-23 {
-  width: 885px;
-  height: 67px;
-  position: absolute;
-  left: 419px;
-  top: 39px;
-  overflow: visible;
-}
-.menu {
-  width: 73px;
-  height: 73px;
-  position: absolute;
-  left: 1602px;
-  top: 33px;
-  object-fit: cover;
-}
-.busque-produtos-aqui {
-  color: #959595;
-  text-align: left;
-  font-family: "Inter-Light", sans-serif;
-  font-size: 40px;
-  font-weight: 300;
-  position: absolute;
-  left: 456px;
-  top: 46px;
-  width: 441px;
-}
-.shopping-cart {
-  width: 73px;
-  height: 73px;
-  position: absolute;
-  left: 1474px;
-  top: 33px;
-  object-fit: cover;
-}
-.filter {
-  width: 73px;
-  height: 73px;
-  position: absolute;
-  left: 1367px;
-  top: 36px;
-  object-fit: cover;
-} */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -80,28 +6,6 @@
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
-
-header {
-  background-color: #ffa448;
-  display: flex;
-  height: 80px;
-}
-
-.img-logo {
-  width: 150px;
-}
-
-.pesquisa {
-  width: 300px;
-  height: 50px;
-  background-color: beige;
-}
-
-.opcoes {
-  display: flex;
-  gap: 10px;
-}
-
 /* MAIN */
 /* INFORMAÇÕES DO PRODUTO */
 main {
@@ -164,9 +68,12 @@ main {
   line-height: 20px;
 }
 
+.avaliacoes{
+  margin-bottom: 40px;
+}
 .texto-descricao,
-.main-avaliacoes,
-footer {
+.main-avaliacoes
+ {
   margin-top: 30px;
 }
 
@@ -176,7 +83,7 @@ footer {
 
 .main-avaliacoes {
   display: flex;
-  border: solid;
+  
   
 }
 
@@ -185,12 +92,3 @@ footer {
   margin-left: 30px;
 }
 
-.comentarios {
-  border: solid;
-
-}
-
-footer {
-  background-color: #ffa448;
-  height: 200px;
-}
