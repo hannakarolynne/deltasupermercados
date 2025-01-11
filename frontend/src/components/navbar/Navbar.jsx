@@ -1,20 +1,30 @@
-import "./Navbar.css";
+import Logo from "../../assets/logo.png";
+import Filtro from "../../assets/icon-filtro.png";
+import Carrinho from "../../assets/icon-carrinho.png";
+import Menu from "../../assets/icon-menu.png";
+import "../navbar/Navbar.css";
 
-function Navbar() {
-    return (
-        <div class="group-29">
-            <div class="group-27">
-                <div class="rectangle-13"></div>
-                <img class="image-removebg-preview-1" src="image-removebg-preview-10.png" />
-                <div class="cadastrar">Cadastrar</div>
-                <div class="ofertas">Ofertas</div>
-                <div class="trabalhe-conosco">Trabalhe conosco</div>
-                <div class="produtos">Produtos</div>
-            </div>
-            <div class="group-28">
-                <div class="acessar">Acessar</div>
-                <div class="line-2"></div>
-            </div>
-        </div>
-    )
-}
+function Navbar () {
+  return (
+    <header>
+      <div className="div-logo">
+        <img src={Logo} className="img-logo" alt="Logo Delta Supermercados" />
+      </div>
+
+      <div className="pesquisa">
+        <input type="text"placeholder="Busque produtos aqui"className="input-pesquisa"/>
+        <button className="btn-pesquisa">
+          
+        </button>
+      </div>
+
+      <div className="opcoes">
+        <img src={Filtro} className="icon-header" alt="Filtro" />
+        <img src={Carrinho} className="icon-header" alt="Carrinho" />
+        <img src={Menu} className="icon-header" alt="Menu" />
+      </div>
+    </header>
+  );
+};
+
+export default Navbar;
