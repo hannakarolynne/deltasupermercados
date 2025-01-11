@@ -1,11 +1,28 @@
-import Logo from "../../assets/logo.png";
+// //////////////////////////////////////////
+import LogoForm from "../../assets/logo.png";
 
-function LogoForm() {
+function LogoForm () {
   return (
-    <div style={{ border: "" }}>
-      <img style={{ width: "800px" }} src={Logo} />
-    </div>
-  );
+    <img src={LogoForm}/>
+  )
 }
 
-export default LogoForm;
+export default LogoForm
+
+
+
+
+
+
+
+// import Logo from "../../assets/logo.png";
+
+// function LogoForm() {
+//   return (
+//     <div style={{ border: "" }}>
+//       <img style={{ width: "800px" }} src={Logo} />
+//     </div>
+//   );
+// }
+
+// export default LogoForm;
