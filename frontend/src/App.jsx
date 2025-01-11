@@ -1,19 +1,14 @@
-import Catalog from "./pages/Catalog"
-
-
+import FormLogin from "./components/form-Login/FormLogin";
 
 
 
 function App() {
-
-
   return (
-
-    <div>
-    <Catalog/>
+  <div>
+    
+    <FormLogin/>
   </div>
-
   )
 }
 
-export default App
+export default App;
