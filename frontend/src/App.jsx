@@ -1,12 +1,13 @@
-import FormLogin from "./components/form-Login/FormLogin";
+import Comments from "./components/comments/Comments";
+
 
 
 
 function App() {
   return (
   <div>
+    <Comments/>
     
-    <FormLogin/>
   </div>
   )
 }
