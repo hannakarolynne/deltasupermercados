@@ -1,4 +1,4 @@
-import Comments from "./components/comments/Comments";
+
 
 
 
@@ -6,7 +6,7 @@ import Comments from "./components/comments/Comments";
 function App() {
   return (
   <div>
-    <Comments/>
+    
     
   </div>
   )

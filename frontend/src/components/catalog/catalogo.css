@@ -1,0 +1,96 @@
+/* Estilos globais e normalização */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Containers e Layout */
+.item-container {
+  width: 273.08px;
+  height: 396.8px;
+  position: relative;
+}
+
+.rectangle {
+  background: #d9d9d9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  width: 224.24px;
+  height: 201.99px;
+  object-fit: cover;
+  position: absolute;
+  top: 16.16px;
+  left: 23.92px;
+}
+
+/* Estilos de texto */
+.text {
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.font-extrabold {
+  font-family: "Inter-ExtraBold", sans-serif;
+  font-weight: 800;
+}
+
+.font-regular {
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+}
+
+/* Posicionamento de texto */
+.price {
+  position: absolute;
+  width: 124.70px;
+  height: 32.32px;
+  top: 301.64px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.description {
+  position: absolute;
+  top: 223.54px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 267.1px;
+  height: 64.64px;
+  text-align: left;
+}
+
+/* Ícones de edição e exclusão */
+.icon {
+  width: 29px;
+  height: 27px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.icon-edit {
+  left: 172px;
+  top: 357.8px;
+}
+
+.icon-delete {
+  left: 215px;
+  top: 356.8px;
+}
