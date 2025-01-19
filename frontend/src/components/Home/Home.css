@@ -34,7 +34,7 @@ a {
   height: 5vw; 
 }
 
-.navlink {
+.linkbar {
   list-style: none;
   display: flex;
   gap: 10px;

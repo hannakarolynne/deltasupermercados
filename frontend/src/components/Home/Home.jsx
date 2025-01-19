@@ -7,6 +7,7 @@ import Celular from "../../assets/phone.png";
 import Loja from "../../assets/about.png";
 import App from "../../assets/app.png";
 
+
 function Home() {
     return (
        
@@ -14,10 +15,10 @@ function Home() {
       {/* NAVBAR */}
       <nav class="navbar">
         <div class="logo"><img src={Logo} class="logo" /></div>
-        <ul class="navlink">
+        <ul class="linkbar">
           <li><a href="#">Ofertas</a></li>
           <li><a href="#">Lojas</a></li>
-          <li><a href="#">Produtos</a></li>
+          <Router><Link to="produtos">Produtos</Link></Router>
         </ul>
 
         <ul class="acess">
