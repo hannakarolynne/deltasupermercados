@@ -1,7 +1,7 @@
 import "./Details.css";
-import Produto from "../../../assets/produto.png";
-import Estrelas from "../../../assets/cinco-estrelas.png";
-import Navbar from "../../navbar/Navbar";
+import Produto from "../../assets/produto.png";
+import Estrelas from "../../assets/cinco-estrelas.png";
+import Navbar from "../../components/navbar/Navbar";
 function Details() {
     return (
         <div class="div-detalhes">

@@ -2,35 +2,65 @@ import "./register.css";
 
 function Register(){
     return(
-        <>
-        <div class="group-44">
-  <div class="t-tulo-do-produto-com-descri-o">
-    Título do produto (com descrição)
-  </div>
-  <div class="cadastre-um-novo-produto">Cadastre um novo produto</div>
-  <div class="pre-o">Preço</div>
-  <div class="categoria">Categoria</div>
-  <div class="validade">Validade</div>
-  <div class="insira-uma-imagem">Insira uma imagem</div>
-  <div class="rectangle-73"></div>
-  <div class="upload-a-file-here">Upload a file here</div>
-  <img class="upload-to-cloud" src="upload-to-cloud0.png" />
-  <div class="rectangle-74"></div>
-  <div class="rectangle-75"></div>
-  <div class="rectangle-76"></div>
-  <div class="rectangle-77"></div>
-  <div class="ex-r-1-99">Ex: R$ 1,99</div>
-  <div class="select">Select</div>
-  <div class="dd-mm-aaaa">dd/mm/aaaa</div>
-  <img class="polygon-3" src="polygon-30.svg" />
-  <div class="line-3"></div>
-  <div class="line-4"></div>
-  <div class="group-40">
-    <div class="rectangle-71"></div>
-  </div>
-  <div class="cadastrar">CADASTRAR</div>
-</div>
+      <div className="cadastro-produto">
+      <h1 className="nome-formulario">Cadastre um novo produto</h1>
+      <form className="form-produto">
+        {/* Lado esquerdo */}
+        <div className="lado-esquerdo">
+          {/* Campo do título */}
+          <div className="form-group">
+            <label htmlFor="nome">Nome do produto (com descrição)</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Ex:NutriSnack - Castanha & Mel 50g"
+            />
+          </div>
+          {/* Campo de upload */}
+          <div className="form-group">
+            <label>Insira uma imagem</label>
+            <div className="upload-container">
+              <div className="upload-placeholder">
+                <p>Upload a file here</p>
+              </div>
+              <input type="file"  className="upload-input" />
+            </div>
+          </div>
+        </div>
 
-        </>
+        {/* Lado direito */}
+        <div className="lado-direito">
+          <div className="form-group">
+            <label htmlFor="preco">Preço</label>
+            <input
+            step="0.01" min="0"
+              type="number"
+              id="preco"
+              name="preco"
+              placeholder="Ex: R$ 1,99"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="categoria">Categoria</label>
+            <select id="categoria" name="categoria">
+              <option value="">Select</option>
+              <option value="alimentos">Alimentos</option>
+              <option value="bebidas">Bebidas</option>
+              <option value="limpeza">Higiene</option>
+            </select>
+          </div>
+          <div className="form-group">
+            <label htmlFor="validade">Validade</label>
+            <input type="date" id="validade" name="validade" />
+          </div>
+
+            {/* BOTÃO CADASTRAR */}
+          <button type="submit" className="botao-cadastrar">
+            CADASTRAR
+          </button>
+        </div>
+      </form>
+    </div>
     )
 }export default Register
