@@ -1,5 +1,7 @@
 import Produto from "../../assets/produto.png";
-import "../comment/Comment.css";
+import "../comment/comment.css";
+import {Link } from "react-router-dom";
+
 
 function Comment() {
   return (
@@ -33,11 +35,11 @@ function Comment() {
               placeholder="Diga algo à respeito..."
             ></textarea>
           </div>
-          <button>Enviar</button>
+          <Link to="/detalhes"><button>Enviar</button></Link>
         </div>
       </div>
     </div>
   );
 }
 
-export default Comments;
+export default Comment;

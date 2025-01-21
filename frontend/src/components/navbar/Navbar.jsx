@@ -4,11 +4,13 @@ import Carrinho from "../../assets/icon-carrinho.png";
 import Menu from "../../assets/icon-menu.png";
 import "../navbar/Navbar.css";
 
+import {Link} from "react-router-dom";
+
 function Navbar () {
   return (
     <header>
       <div className="div-logo">
-        <img src={Logo} className="img-logo" alt="Logo Delta Supermercados" />
+      <Link to="/"><img src={Logo} className="img-logo" alt="Logo Delta Supermercados" /></Link>
       </div>
 
       <div className="pesquisa">

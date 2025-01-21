@@ -12,9 +12,14 @@ main {
   margin: 70px 70px 0px 70px;
 }
 
-.descricao,
-.avaliacoes {
-  margin-top: 50px;
+.info-prod,
+.descricao {
+  margin-bottom: 160px;
+  
+}
+
+.avaliacoes{
+  margin-top: -40px;
 }
 
 .img-produto {

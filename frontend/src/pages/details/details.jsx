@@ -2,6 +2,8 @@ import "./Details.css";
 import Produto from "../../assets/produto.png";
 import Estrelas from "../../assets/cinco-estrelas.png";
 import Navbar from "../../components/navbar/Navbar";
+import {Link } from "react-router-dom";
+
 function Details() {
     return (
         <div class="div-detalhes">
@@ -25,7 +27,7 @@ function Details() {
                             <img style={{ height: '30px' }} src={Estrelas} className="img-estrelas"></img>
                             <h3 style={{ fontWeight: "700", color: 'rgb(53, 53, 53)' }}>Em estoque</h3>
                         </div>
-                        <h1 style={{ color: "red", opacity: 0.6, fontSize: "40px" }}>R$ 15,95</h1>
+                        
                         <h1 style={{ fontSize: "40px" }} >R$ 14,35</h1>
                         <button className="btn">Comprar</button>
                     </div>
@@ -44,7 +46,7 @@ function Details() {
                         <div className="numeros">
                             <img style={{ height: '30px' }} src={Estrelas} className="img-estrelas"></img>
                             <h2>Comentários: 0</h2>
-                            <button className="btn">Avaliar</button>
+                            <Link to="/avaliacao"><button className="btn">Avaliar</button></Link>
                         </div>
                         {/* COMENTÁRIOS */}
                         <div style={{ fontSize: "30px" }} className="comentarios">

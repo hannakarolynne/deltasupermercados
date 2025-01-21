@@ -112,7 +112,7 @@ a {
   text-align: center;
   display: flex;
   position: static;
-  border: solid black;
+
 }
 
 
@@ -178,7 +178,7 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: solid black;
+ 
 }
 .container-providers {
   background-color: green;
