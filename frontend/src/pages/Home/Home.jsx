@@ -25,7 +25,9 @@ function Home() {
 
         <ul className="acess">
           <li><a href="#">Cadastrar</a></li>
-          <li><a href="#">Entrar</a></li>
+          <li>
+            <Link to="/login"><a href="#">Entrar</a></Link>
+          </li>
         </ul>
       </nav>
 

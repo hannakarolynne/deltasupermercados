@@ -2,6 +2,7 @@ import InputEmail, { InputPass } from "../input/input";
 import "./FormSignup.css";
 import Circulos from "../../assets/circulos.png";
 
+
 function FormSignup() {
   return (
     // TODO FORMULÁRIO DE LOGIN
