@@ -1,5 +1,6 @@
-const mysql = require('mysql2/promise')
-require('dotenv').config({path: '../.env'})
+import mysql from 'mysql2/promise'
+import dotenv from 'dotenv'
+dotenv.config({path: '../.env'})
 
 const pool = mysql.createPool({
     host: process.env.DB_HOST,
@@ -8,6 +9,7 @@ const pool = mysql.createPool({
     database: process.env.DB_NAME
 })
 
+//teste de conexão
 // const testConnection = async () => {
 //     try {
 //         const [rows] = await pool.query('SELECT 1')
@@ -19,4 +21,4 @@ const pool = mysql.createPool({
 
 // testConnection()
 
-module.exports = pool
+export default pool

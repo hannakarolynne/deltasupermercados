@@ -7,11 +7,11 @@ function App () {
     return(
         <Router>
             <Routes>
-            <Route index element={<Home/>}/>
-            <Route path="catalogo" element={<Catalogo/>}/>
-            <Route path="detalhes" element={<Details/>}/>
-            <Route path="cadastro" element={<Cadastro/>}/>
-            <Route path="avaliacao" element={<Comments/>} />
+                <Route index element={<Home/>}/>
+                <Route path="catalogo" element={<Catalogo/>}/>
+                <Route path="detalhes" element={<Details/>}/>
+                <Route path="cadastro" element={<Cadastro/>}/>
+                <Route path="avaliacao" element={<Comments/>} />
             </Routes>
         </Router>
     )
