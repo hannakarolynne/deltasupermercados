@@ -1,13 +1,14 @@
 // //////////////////////////////////////////
 import LogoForm from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
-function LogoForm () {
+function Logo () {
   return (
-    <img src={LogoForm}/>
+    <Link to="/"><img src={LogoForm}/></Link>
   )
 }
 
-export default LogoForm
+export default Logo
 
 
 

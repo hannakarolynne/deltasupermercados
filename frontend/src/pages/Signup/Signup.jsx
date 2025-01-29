@@ -1,5 +1,5 @@
 import FormSignup from "../../components/form-signup/FormSignup";
-import LogoForm from "../../components/logo/LogoForm";
+import Logo from "../../components/logo/LogoForm";
 
 
 function Signup() {
@@ -17,7 +17,7 @@ function Signup() {
 
       }}
     >
-      <LogoForm/>
+      <Logo/>
       <FormSignup/>
      
     </div>
