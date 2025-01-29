@@ -5,7 +5,9 @@ function InputEmail() {
           type="email"
           id="email"
           name="email"
-          placeholder="Seu email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Digite seu email"
           required/>
       </div>
     
@@ -22,7 +24,9 @@ export function InputPass() {
           type="password"
           id="password"
           name="password"
-          placeholder="Sua senha"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Digite sua senha"
           required/>
       </div>
   );
@@ -35,7 +39,9 @@ export function InputName() {
           type="name"
           id="name"
           name="name"
-          placeholder="Seu nome"
+          onChange={(e) => setName(e.target.value)}
+          value={nome}
+          placeholder="Digite seu nome"
           required/>
       </div>
   );

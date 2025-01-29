@@ -4,7 +4,8 @@ import Circulos from "../../assets/circulos.png";
 
 function FormSignup() {
   return (
-    // TODO FORMULÁRIO DE LOGIN
+    // TODO FORMULÁRIO DE CADASTRO
+    
       <div className="form-login">
         <h2 className="text-bemvindo">Bem vindo</h2>
 
@@ -19,7 +20,6 @@ function FormSignup() {
               Entrar
             </button>
             
-
           </form>
           <button class="btn-cadastrar">Cadastrar</button>
         </div>
