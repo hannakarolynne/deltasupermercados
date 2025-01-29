@@ -1,39 +1,172 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
 
-.conteudo-produto{
-  margin-top: 0px;
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.component-comment {
+  height: 100vh; 
   display: flex;
-  gap: 40px;
-}
-
-.conteudo-produto, .title-page{
-  margin: 30px 50px 0px 50px;
-}
-
-.img-produto{
-  height: 500px;
-}
-
-.conteudo-avaliacao{
-  
-  height: 300px;
-  margin-top: 10px;
-  padding-top: 10px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  padding: 20px;
+  text-align: center; /* Garante centralização horizontal do texto */
 }
 
+.title-page {
+  font-size: 2rem; 
+  font-weight: bold;
+  margin-bottom: 20px;
+  white-space: nowrap; /* Garante que o texto não quebre */
+}
 
+.conteudo-produto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Limite para telas grandes */
+}
 
+.div-produto {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  justify-content: center; /* Centraliza a imagem horizontalmente */
+  align-items: center; /* Centraliza a imagem verticalmente */
+}
 
+.img-produto {
+  width: 100%;
+  max-height: 400px; /* Limite máximo da altura */
+  object-fit: contain; /* Mantém a proporção da imagem */
+  border-radius: 8px;
+}
 
-textarea{
+.info-produto {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  text-align: left; /* Alinha o texto à esquerda no desktop */
+}
+
+.info-produto h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem; /* Ajuste no tamanho */
+}
+
+.h1-sempromo {
+  color: red;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+
+.h1-promo {
+  font-size: 1.5rem;
+  color: green; /* Destaque para o preço promocional */
+}
+
+.conteudo-avaliacao {
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
   margin-top: 10px;
   resize: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #ff6f00;
+}
+
+.btn-enviar {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #e65c00;
+}
+
+@media screen and (max-width: 768px) {
+  .component-comment {
+    padding: 20px;
+    height: auto;
+  }
+
+  .conteudo-produto {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .info-produto {
+    text-align: center; /* Centraliza texto em telas menores */
+  }
+
+  .img-produto {
+    max-height: 300px; 
+  }
+
+  .title-page {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .info-produto h1 {
+    font-size: 1.2rem;
+  }
+
+  .btn-enviar {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title-page {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .info-produto h1 {
+    font-size: 1rem;
+  }
+
+  .img-produto {
+    max-height: 200px;
+  }
+
+  .btn-enviar {
+    font-size: 0.9rem;
+  }
+
+  textarea {
+    font-size: 0.9rem;
+  }
 }

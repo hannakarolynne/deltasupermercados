@@ -1,14 +1,14 @@
-const  bcrypt = require ('bcrypt')
+import bcrypt from 'bcrypt'
 
-const jwt = require ('jsonwebtoken')
+import jwt from 'jsonwebtoken'
 
-const userModel = require('../models/userModels.js')
+import {findUserByEmail, createUser} from '../models/userModels.js'
 
-const register = async (req,res) =>{
+export const register = async (req,res) =>{
     const {name, email, password} = req.body
 
     try {
-        const userExists = userModel.findUserByEmail(email) //userModel.js
+        const userExists = await userModel.findUserByEmail(email) //userModel.js
         if (userExists) return res.status(400).json({message: "Email já cadastrado"})
         const passwordHash = await bcrypt.hash(password, 10)
 
@@ -19,7 +19,7 @@ const register = async (req,res) =>{
     }
 }
 
-const login = async (req, res) => {
+export const login = async (req, res) => {
     const {email, password} = req.body
 
     try{
@@ -39,4 +39,3 @@ const login = async (req, res) => {
     }
 }
 
-module.exports = {register, login}
