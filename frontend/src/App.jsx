@@ -4,6 +4,8 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
  import Catalog from "./pages/Catalog";
  import Details  from "../src/pages/details/details";
  import Comment from "../src/components/comment/comment";
+ import Signup from "../src/pages/Signup/Signup";
+ import Login from "../src/pages/Login/Login";
 
  function App() {
    return (
@@ -14,6 +16,10 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
   <Route path="/catalogo" element={<Catalog/>} />
   <Route path="/detalhes" element={<Details/>}></Route>
   <Route path="/avaliacao" element={<Comment/>}></Route>
+  <Route path="/login" element={<Login/>}></Route>
+  <Route path="/cadastrar" element={<Signup/>}></Route>
+
+
 
 </Routes>
       </BrowserRouter>
