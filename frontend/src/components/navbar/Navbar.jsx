@@ -21,9 +21,7 @@ function Navbar () {
       </div>
 
       <div className="opcoes">
-        <img src={Filtro} className="icon-header" alt="Filtro" />
-        <img src={Carrinho} className="icon-header" alt="Carrinho" />
-        <img src={Menu} className="icon-header" alt="Menu" />
+      <Link to="novoproduto"><button className="botao-cadastro">Novo produto</button></Link>
       </div>
     </header>
   );

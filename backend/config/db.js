@@ -1,6 +1,6 @@
 import mysql from 'mysql2/promise'
 import dotenv from 'dotenv'
-dotenv.config({path: '../.env'})
+dotenv.config()
 
 const pool = mysql.createPool({
     host: process.env.DB_HOST,
@@ -10,15 +10,15 @@ const pool = mysql.createPool({
 })
 
 //teste de conexão
-// const testConnection = async () => {
-//     try {
-//         const [rows] = await pool.query('SELECT 1')
-//         console.log('Conexão com o banco de dados bem-sucedida!')
-//     } catch (error) {
-//         console.error('Erro ao conecta com o banco de dados:', error.message)
-//     }
-// }
+const testConnection = async () => {
+    try {
+        const [rows] = await pool.query('SELECT 1')
+        console.log('Conexão com o banco de dados bem-sucedida!')
+    } catch (error) {
+        console.error('Erro ao conecta com o banco de dados:', error.message)
+    }
+}
 
-// testConnection()
+testConnection()
 
 export default pool

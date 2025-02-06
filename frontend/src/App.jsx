@@ -6,6 +6,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
  import Comment from "../src/components/comment/comment";
  import Signup from "../src/pages/Signup/Signup";
  import Login from "../src/pages/Login/Login";
+ import ProdCadastro from "../src/pages/ProdCadastro";
 
  function App() {
    return (
@@ -18,6 +19,8 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
   <Route path="/avaliacao" element={<Comment/>}></Route>
   <Route path="/login" element={<Login/>}></Route>
   <Route path="/cadastrar" element={<Signup/>}></Route>
+  <Route path="/novoproduto" element={<ProdCadastro to="/catalogo/novoproduto" />} />
+<Route path="/catalogo/novoproduto" element={<ProdCadastro />} />
 
 
 
