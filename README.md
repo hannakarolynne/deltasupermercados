@@ -2,6 +2,10 @@
 
 O sistema Delta Supermercados é uma solução para o gerenciamento de usuários, produtos e comentários em supermercados. Com controle de acesso por meio de login e cadastro, o sistema permitirá a administração de um catálogo de produtos, exibindo informações como imagem, nome, descrição, validade, preço e categoria. Além disso, os usuários poderão enviar comentários específicos para cada produto, com o histórico registrado, incluindo data e hora, proporcionando um acompanhamento detalhado e organizado de todas as interações e informações dos itens.
 
+<div align="center">
+    <img src="../deltasupermercados/frontend/src/assets/projeto-superselect.png" alt="Logo do Projeto" width="500">
+</div>
+
 ## Acesso ao Projeto
 
 ### 1. Clonando o Repositório
