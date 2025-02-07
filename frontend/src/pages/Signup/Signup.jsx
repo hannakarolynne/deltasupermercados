@@ -4,7 +4,7 @@ import Logo from "../../components/logo/LogoForm";
 
 function Signup() {
   return (
-    <div class
+    <div
       style={{
         display: "flex",
         alignItems: "center",

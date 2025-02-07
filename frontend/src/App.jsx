@@ -18,7 +18,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
   <Route path="/detalhes" element={<Details/>}></Route>
   <Route path="/avaliacao" element={<Comment/>}></Route>
   <Route path="/login" element={<Login/>}></Route>
-  <Route path="/cadastrar" element={<Signup/>}></Route>
+  <Route path="/register" element={<Signup/>}></Route>
   <Route path="/novoproduto" element={<ProdCadastro to="/catalogo/novoproduto" />} />
 <Route path="/catalogo/novoproduto" element={<ProdCadastro />} />
 
